@@ -9,26 +9,26 @@ You can show a tutorial for one gesture.
 APIParser *service = [APIParser sharedMediaServer];
 
 [service EventRequestWithType:APIGetAllEvents
-parameters:[NSString stringWithFormat:@"userId=%d", userID]
-cookieValue:nil
-customeobject:nil
-block:^(NSError *error, id objects, NSString *responseString, NSString *nextUrl, NSMutableArray *responseArray)
-{
-if (error) {
+    parameters:[NSString stringWithFormat:@"userId=%d", userID]
+    cookieValue:nil
+    customeobject:nil
+    block:^(NSError *error, id objects, NSString *responseString, NSString *nextUrl, NSMutableArray *responseArray)
+    {
+        if (error) {
 
-    //Handle Error
-}
-else {
+            //Handle Error
+        }
+        else {
 
-if (responseArray.count > 0) {
+            if (responseArray.count > 0) {
 
-    //Handle Response Array
-}
-else {
+                //Handle Response Array
+            }
+            else {
 
-    //Handle null response array
-}
-}
+                //Handle null response array
+            }
+        }
 }];
 ```
 
