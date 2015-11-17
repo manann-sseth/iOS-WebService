@@ -1,6 +1,10 @@
 # iOS-WebService
 
 
+## Usage
+
+You can show a tutorial for one gesture.
+
 ```objc
 APIParser *service = [APIParser sharedMediaServer];
 
