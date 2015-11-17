@@ -29,7 +29,7 @@ APIParser *service = [APIParser sharedMediaServer];
                 //Handle null response array
             }
         }
-}];
+    }];
 ```
 
 
