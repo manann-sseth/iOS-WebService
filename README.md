@@ -8,7 +8,7 @@ You can show a tutorial for one gesture.
 ```objc
 APIParser *service = [APIParser sharedMediaServer];
 
-[service EventRequestWithType:APIGetAllEvents
+[service UserRequestWithType:APIGetAllEvents
     parameters:[NSString stringWithFormat:@"userId=%d", userID]
     cookieValue:nil
     customeobject:nil
