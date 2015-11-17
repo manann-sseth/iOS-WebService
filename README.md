@@ -37,3 +37,9 @@ else {
 
 Dhruvik Rao, dhruvik.rao@gmail.com
 
+
+## License
+
+```
+Copyright (c) 2015 Dhruvik Rao <dhruvik.rao@gmail.com>
+
